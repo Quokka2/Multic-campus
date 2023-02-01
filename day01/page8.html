@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- th : 글자제목 진하게 -->
+    <table border="1">
+        <!-- 자동완성 : Crlt + 스페이스바 -->
+        <tr>
+            <!-- colspan : 가로확장 rowspan : 세로확장 -->
+            <td colspan="3">컬럼 3개를 합한 것</td>
+            <td rowspan="3">로우 3개를 합한 것</td>
+        </tr>
+        <!-- 위에서 지정한 확장이 우선을 가지고 있어서 밑에 이미 합쳐진 칸은 쓸필요없음 -->
+        <tr>
+            <td>5</td>
+            <td rowspan="2">6 + 10</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>11</td>            
+        </tr>
+    </table>
+</body>
+</html>
