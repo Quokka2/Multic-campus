@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            float: left;
+        }
+    </style>
+    <script>
+        function food1(){
+            food = document.getElementById("food").value
+            if(food == "소시지야채볶음"){
+                window.open("page2.html");
+            }else{}
+        }
+    </script>
+</head>
+<body>
+    <form>
+        
+        <h1>간단 레시피 사이트</h1>
+        <input type="text" value="소시지야채볶음" id="food">
+        <button onclick="food1()">검색</button>
+        <hr>
+    </form>
+    <img src="123123.jpg" width="450px;" height="450px">
+
+
+    <h3>재료</h3>
+    <table border="0">
+        <tr>
+            <td>
+                소스
+            </td>
+        </tr>
+        <tr>
+            <td>
+                진간장 2큰술(20g)<br>
+                황설탕 2큰술(20g)<br>
+                케찹 4큰술(60g)<br>
+                식초 1큰술(10g)<br>
+                간생강 1/3큰술(5g)
+            </td>
+        </tr>        <tr>
+            <td>
+                볶음
+            </td>
+        </tr>        <tr>
+            <td>
+                비엔나소시지 250g<br>
+                식용유 3큰술(20g)<br>
+                마늘 10개(40g)<br>
+                양파 1/2개(80g)<br>
+                양송이 2개(50g)<br>
+                파프리카 1/4개(80g)<br>
+                당근 1/5개(20g)<br>
+                후춧가루 적당량<br>
+                깨소금 적당량
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
