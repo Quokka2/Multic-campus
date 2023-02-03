@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Menu - Icons</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#menu" ).menu();
+  } );
+  </script>
+  <style>
+  .ui-menu { width: 150px; }
+  </style>
+</head>
+<body>
+ 
+<ul id="menu">
+  <li>
+    <div><span class="ui-icon ui-icon-disk"></span>저장</div>
+  </li>
+  <li>
+    <div><span class="ui-icon ui-icon-plus"></span>확대</div>
+  </li>
+  <li>
+    <div><span class="ui-icon ui-icon-minus"></span>축소</div>
+  </li>
+  <li class="ui-state-disabled">
+    <div><span class="ui-icon ui-icon-print"></span>인쇄</div>
+  </li>
+  <li>
+    <div><span class="ui-icon ui-icon-star"></span>Playback</div>
+    <ul>
+      <li>
+        <div><span class="ui-icon ui-icon-seek-start"></span>Prev</div>
+      </li>
+      <li>
+        <div><span class="ui-icon ui-icon-stop"></span>Stop</div>
+      </li>
+      <li>
+        <div><span class="ui-icon ui-icon-play"></span>Play</div>
+      </li>
+      <li>
+        <div><span class="ui-icon ui-icon-seek-end"></span>Next</div>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <div>Learn more about this menu</div>
+  </li>
+</ul>
+ 
+ 
+</body>
+</html>
