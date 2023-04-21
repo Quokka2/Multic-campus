@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" modified="2023-04-21T07:27:51.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ACUKfyTn7EriFGnS2GZc" version="21.2.1" type="device">
+  <diagram name="페이지-1" id="MMd3dqlD4znHAWng-6X7">
+    <mxGraphModel dx="594" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-1" value="맛.ZIP Chatbot 입니다." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="309" y="40" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-2" value="1. 맛집 등록 방법&lt;br&gt;2. 계정 탈퇴 방법&lt;br&gt;3. 사장님 업그레이드 방법" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="289" y="140" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-12" value="맛집 등록 방법" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="14" y="283" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-13" value="1. 맛집 등록은 어떻게 하나요?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-12">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-14" value="2. 지도에 마커 등록은 언제 되나요?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-12">
+          <mxGeometry y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-15" value="3. 등록 메뉴는 어디로 가야하나요?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-12">
+          <mxGeometry y="90" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-16" value="1. 맛집 등록은 어떻게 하나요?" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="14" y="422" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-17" value="1.&amp;nbsp;영수증 또는 주소가 나와 있는 결제 내역 준비" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-16">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-18" value="2.&amp;nbsp;등록 정보 메뉴 혹은 버튼으로 이동 후, 이미지 파일 첨부" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-16">
+          <mxGeometry y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-19" value="3.&amp;nbsp;상호명, 주소, 시간이 잘 보이게 등록해 주세요." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-16">
+          <mxGeometry y="90" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-24" value="2. 지도에 마커 등록은 언제 되나요?" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="14" y="556" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-25" value="동일 맛집이 2회 이상 등록되면, 지도에 마커가 생성되며 또간집으로 등록됩니다!" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-24">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-26" value="※ 중복 영수증 이미지는 등록되지 않습니다. 날짜가 다른 영수증을 준비해주세요." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-24">
+          <mxGeometry y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-28" value="3. 등록 메뉴는 어디로 가야하나요?" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="14" y="663" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-29" value="등록페이지로 이동하기 &amp;gt;&amp;gt;&amp;gt; 페이지링크" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-28">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-31" value="계정 탈퇴 방법" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="283" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-32" value="1. 탈퇴를 원하는 아이디로 로그인해주세요." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-31">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-35" value="2. 회원정보페이지로 이동해주세요." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-31">
+          <mxGeometry y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-36" value="3. 페이지 최하단의 &quot;회원탈퇴&quot; 버튼을 눌러주세요" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-31">
+          <mxGeometry y="90" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-37" value="회원정보페이지로 이동하기 &amp;gt;&amp;gt;&amp;gt; 페이지링크" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-31">
+          <mxGeometry y="120" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-38" value="사장님 업그레이드 방법" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="556" y="283" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-40" value="1. 업그레이드 혜택이 무엇인가요?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-38">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-41" value="2. 방법은 무엇인가요?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-38">
+          <mxGeometry y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-42" value="3. 구독 해지 방법은 무엇인가요?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-38">
+          <mxGeometry y="90" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-47" value="1. 업그레이드 혜택이 무엇인가요?" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="556" y="444" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-48" value="사장님을 위한 프리미엄기능이며, 월 구독료로 사장님 커뮤니티 이용 + 홍보 기능을 이용할 수 있습니다." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-47">
+          <mxGeometry y="30" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-51" value="2. 방법은 무엇인가요?" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="556" y="574" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-52" value="일반 회원으로 먼저 가입하고, 회원정보 페이지에 사장님 계정으로 업그레이드 버튼을 누르면 구독 페이지로 이동합니다." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-51">
+          <mxGeometry y="30" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-61" value="계정 업그레이드 페이지로 이동하기 &amp;gt;&amp;gt;&amp;gt; 링크" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-51">
+          <mxGeometry y="110" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-55" value="3. 구독 해지 방법은 무엇인가요?" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="556" y="723" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="N_tiXjP6fgceNjsOzBI9-56" value="회원정보수정 페이지에서 해지버튼을 누릅니다.&lt;br&gt;이번달 결제하신건 유지되며 다음 결제일까지 지속됩니다.&lt;br&gt;다음 결제일에 자동 취소" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="N_tiXjP6fgceNjsOzBI9-55">
+          <mxGeometry y="30" width="260" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
