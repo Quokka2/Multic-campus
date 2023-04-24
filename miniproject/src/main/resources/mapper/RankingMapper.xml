@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Ranking">
+	
+<!--	<insert id="create" parameterType="rankingVO">
+		insert into music values (null, #{name}, #{musician}, #{img})
+	</insert>
+	<update id="up">
+		update music set name = #{name} where no = #{no}
+	</update>
+	<delete id="del"  parameterType="Integer">
+		delete from music where no = #{no}
+	</delete>
+	<select id="one" parameterType="rankingVO" resultType="rankingVO">
+		select * from
+		test5 where no = #{no}
+	</select> -->
+	<select id="all" parameterType="rankingVO" resultType="rankingVO">
+		select * from
+		test5
+	</select>
+	<select id="rank" parameterType="rankingVO" resultType="rankingVO">
+		select * from
+		test5 where store = #{store}
+	</select>
+	
+</mapper>
